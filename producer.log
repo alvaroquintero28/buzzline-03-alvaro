@@ -1,0 +1,33 @@
+2025-01-27 20:41:42,600 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 20:41:42,600 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/data/buzz.json
+2025-01-27 20:41:42,603 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 20:41:42,604 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 20:41:42,604 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 20:41:42,712 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 20:41:42,712 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 20:41:42,713 | CRITICAL | __main__ - /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/data/buzz.json not found. Exiting
+2025-01-27 20:41:42,713 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 20:41:42,715 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 20:42:01,828 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 20:42:01,828 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/data/buzz.json
+2025-01-27 20:42:01,831 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 20:42:01,831 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 20:42:01,831 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 20:42:01,939 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 20:42:01,939 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 20:42:01,940 | CRITICAL | __main__ - /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/data/buzz.json not found. Exiting
+2025-01-27 20:42:01,940 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 20:42:01,942 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 20:43:28,140 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 20:43:28,141 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/data/buzz.json
+2025-01-27 20:43:28,143 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 20:43:28,143 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 20:43:28,144 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 20:43:28,144 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 20:43:28,191 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 20:43:28,191 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 20:43:28,191 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 20:43:28,241 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-01-27 20:43:28,241 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2025-01-27 20:43:28,241 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 20:43:28,241 | CRITICAL | __main__ - Error creating Kafka producer: NoBrokersAvailable. Exiting.
