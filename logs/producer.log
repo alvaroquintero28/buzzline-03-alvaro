@@ -1,0 +1,229 @@
+2025-01-27 19:29:11,933 | INFO | __main__ - Starting producer application...
+2025-01-27 19:29:11,933 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:29:11,933 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:29:11,934 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:29:11,936 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:29:11,936 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:29:11,937 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 19:29:11,937 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:29:11,984 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:29:11,984 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 19:29:11,984 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:29:12,034 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-01-27 19:29:12,034 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2025-01-27 19:29:12,034 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:29:12,034 | ERROR | __main__ - Error creating Kafka producer: NoBrokersAvailable. Exiting.
+Traceback (most recent call last):
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/json_producer_alvaro.py", line 79, in create_kafka_producer
+    producer = KafkaProducer(
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/producer/kafka.py", line 381, in __init__
+    client = KafkaClient(metrics=self._metrics, metric_group_prefix='producer',
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/client_async.py", line 900, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+2025-01-27 19:29:12,035 | CRITICAL | __main__ - Failed to create producer. Exiting.
+2025-01-27 19:29:12,035 | INFO | __main__ - Kafka producer closed.
+2025-01-27 19:34:57,028 | INFO | __main__ - Starting producer application...
+2025-01-27 19:34:57,028 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:34:57,028 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:34:57,028 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:34:57,031 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:34:57,031 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:34:57,032 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 19:34:57,146 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 19:34:57,147 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 19:34:57,148 | INFO | __main__ - Topic 'buzzline_json' already exists.
+2025-01-27 19:34:57,157 | CRITICAL | __main__ - An unexpected error occurred: tuple indices must be integers or slices, not str. Exiting.
+2025-01-27 19:34:57,157 | CRITICAL | __main__ - An error occurred during operation: tuple indices must be integers or slices, not str. Exiting...
+2025-01-27 19:34:57,158 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 19:34:57,158 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 19:34:57,158 | INFO | __main__ - Kafka producer closed.
+2025-01-27 19:37:21,482 | INFO | __main__ - Starting producer application...
+2025-01-27 19:37:21,482 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:37:21,482 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:37:21,482 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:37:21,485 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:37:21,485 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:37:21,485 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 19:37:21,593 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 19:37:21,594 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 19:37:21,595 | INFO | __main__ - Topic 'buzzline_json' already exists.
+2025-01-27 19:37:21,604 | CRITICAL | __main__ - An unexpected error occurred: 'tuple' object has no attribute 'to_dict'. Exiting.
+2025-01-27 19:37:21,604 | CRITICAL | __main__ - An unhandled error occurred: 'tuple' object has no attribute 'to_dict'. Exiting.
+2025-01-27 19:37:21,605 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 19:37:21,605 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 19:37:21,605 | INFO | __main__ - Kafka producer closed.
+2025-01-27 19:41:11,842 | INFO | __main__ - Starting producer application...
+2025-01-27 19:41:11,842 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:41:11,842 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:41:11,842 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:41:11,845 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:41:11,846 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:41:11,846 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 19:41:11,949 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 19:41:11,949 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 19:41:11,950 | INFO | __main__ - Topic 'buzzline_json' already exists.
+2025-01-27 19:41:11,963 | CRITICAL | __main__ - An unexpected error occurred: 'tuple' object has no attribute 'to_dict'. Exiting.
+2025-01-27 19:41:11,963 | CRITICAL | __main__ - An unhandled error occurred: 'tuple' object has no attribute 'to_dict'. Exiting.
+2025-01-27 19:41:11,964 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 19:41:11,965 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 19:41:11,965 | INFO | __main__ - Kafka producer closed.
+2025-01-27 19:44:32,942 | INFO | __main__ - Starting producer application...
+2025-01-27 19:44:32,943 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:44:32,943 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:44:32,943 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:44:32,946 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:44:32,946 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:44:32,947 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 19:44:33,052 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 19:44:33,052 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 19:44:33,053 | INFO | __main__ - Topic 'buzzline_json' already exists.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Eve'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Alice'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Charlie'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Alice'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Diana'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Alice'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Diana'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Eve'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Eve'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Alice'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Diana'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Diana'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,063 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Bob'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Bob'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Eve'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Eve'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Eve'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Bob'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Bob'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Charlie'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Bob'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Alice'). Skipping.
+2025-01-27 19:44:33,064 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Eve'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Eve'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Bob'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Alice'). Skipping.
+2025-01-27 19:44:33,065 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Alice'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Hello, Kafka world!', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Kafka is awesome.', 'Bob'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Alice'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Bob'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('I love Python!', 'Bob'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Alice'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Streaming data is fun.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Have a great day!', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Distributed systems are fascinating.', 'Charlie'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Bob'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('This is a buzz message.', 'Eve'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Diana'). Skipping.
+2025-01-27 19:44:33,066 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Data engineering is my passion.', 'Alice'). Skipping.
+2025-01-27 19:44:33,067 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('Buzz messages for everyone.', 'Diana'). Skipping.
+2025-01-27 19:44:33,067 | ERROR | __main__ - Error processing row: 'tuple' object has no attribute 'to_dict', Row Data: ('JSON makes life easier.', 'Alice'). Skipping.
+2025-01-27 19:44:33,067 | INFO | kafka.producer.kafka - Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-01-27 19:44:33,068 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 19:44:33,068 | INFO | __main__ - Kafka producer closed.
+2025-01-27 19:47:07,384 | INFO | __main__ - Starting producer application...
+2025-01-27 19:47:07,384 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:47:07,384 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:47:07,384 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:47:07,388 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:47:07,388 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:47:07,388 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2025-01-27 19:47:07,493 | INFO | kafka.conn - Broker version identified as 2.5.0
+2025-01-27 19:47:07,494 | INFO | kafka.conn - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-01-27 19:47:07,495 | INFO | __main__ - Topic 'buzzline_json' already exists.
+2025-01-27 19:47:07,497 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:07,513 | INFO | kafka.conn - <BrokerConnection node_id=0 host=alvaros-air.attlocal.net:9092 <connecting> [IPv4 ('192.168.1.148', 9092)]>: connecting to alvaros-air.attlocal.net:9092 [('192.168.1.148', 9092) IPv4]
+2025-01-27 19:47:07,514 | INFO | kafka.conn - <BrokerConnection node_id=0 host=alvaros-air.attlocal.net:9092 <connecting> [IPv4 ('192.168.1.148', 9092)]>: Connection complete.
+2025-01-27 19:47:07,514 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2025-01-27 19:47:08,502 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:09,509 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:10,517 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:11,523 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:12,531 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:13,537 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:14,543 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:15,552 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:16,559 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:17,566 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:18,573 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:19,580 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:20,587 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:21,594 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:22,600 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:23,606 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:24,613 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:25,616 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:26,622 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:27,628 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:28,632 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:29,638 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:30,644 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:31,651 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:32,654 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:33,660 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:34,668 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:35,671 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:36,678 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}
+2025-01-27 19:47:37,686 | INFO | __main__ - Sent message to topic 'buzzline_json': {'type': 'truck_data', 'truck_id': None, 'odometer': None, 'location': None, 'engine_status': None, 'timestamp': None}

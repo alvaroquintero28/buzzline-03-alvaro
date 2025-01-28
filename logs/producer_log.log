@@ -1,0 +1,26 @@
+2025-01-27 19:23:15,443 | INFO | __main__ - Starting producer application...
+2025-01-27 19:23:15,443 | INFO | __main__ - Kafka topic: buzzline_json
+2025-01-27 19:23:15,444 | INFO | __main__ - Message interval: 1 seconds
+2025-01-27 19:23:15,444 | INFO | __main__ - Data file: /Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/data/buzz.json
+2025-01-27 19:23:15,446 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:23:15,446 | INFO | kafka.conn - Probing node bootstrap-0 broker version
+2025-01-27 19:23:15,447 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 19:23:15,447 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:23:15,494 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-01-27 19:23:15,494 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]> returned error 61. Disconnecting.
+2025-01-27 19:23:15,494 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:23:15,544 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-01-27 19:23:15,544 | ERROR | kafka.conn - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]> returned error 61. Disconnecting.
+2025-01-27 19:23:15,544 | INFO | kafka.conn - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 61 ECONNREFUSED
+2025-01-27 19:23:15,544 | ERROR | __main__ - Error creating Kafka producer.
+Traceback (most recent call last):
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/producers/json_producer_alvaro.py", line 73, in create_kafka_producer
+    producer = KafkaProducer(
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/producer/kafka.py", line 381, in __init__
+    client = KafkaClient(metrics=self._metrics, metric_group_prefix='producer',
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/Users/alvaroquintero/Data Streaming/buzzline-03-alvaro/.venv/lib/python3.10/site-packages/kafka/client_async.py", line 900, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+2025-01-27 19:23:15,546 | CRITICAL | __main__ - Failed to create producer. Exiting.
