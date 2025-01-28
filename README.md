@@ -19,21 +19,30 @@ Python 3.11 is required.
 
 Once the tools are installed, copy/fork this project into your GitHub account
 and create your own version of this project to run and experiment with.
-Name it `buzzline-03-yourname` where yourname is something unique to you.
+Name it `buzzline-03-alvaro` where yourname is something unique to you.
 Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/FORK-THIS-REPO.md).
     
 
 ## Task 3. Manage Local Project Virtual Environment
 
 Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/MANAGE-VENV.md) to:
-1. Create your .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
+1. Create your .venv -----python3 -m venv .venv------
+2. Activate .venv ----source .venv/bin/activate------
+3. Install the required dependencies using requirements.txt. ------python3 -m pip install --upgrade pip setuptools wheel
+python3 -m pip install --upgrade -r requirements.txt-------
 
 ## Task 4. Start Zookeeper and Kafka (2 Terminals)
 
 If Zookeeper and Kafka are not already running, you'll need to restart them.
 See instructions at [SETUP-KAFKA.md] to:
+
+#Terminal 1 ----cd ~/kafka
+chmod +x zookeeper-server-start.sh
+bin/zookeeper-server-start.sh config/zookeeper.properties----
+
+#Terminal 2 ----cd ~/kafka
+chmod +x kafka-server-start.sh
+bin/kafka-server-start.sh config/server.properties------
 
 1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
 2. Start Kafka ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
@@ -43,17 +52,10 @@ See instructions at [SETUP-KAFKA.md] to:
 In VS Code, open a terminal.
 Use the commands below to activate .venv, and start the producer. 
 
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m producers.json_producer_case
-```
-
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_alvaro
 ```
 
 What did we name the topic used with JSON data? 
@@ -66,16 +68,10 @@ Consumers process streaming data in real time.
 In VS Code, open a NEW terminal in your root project folder. 
 Use the commands below to activate .venv, and start the consumer. 
 
-Windows:
-```shell
-.venv\Scripts\activate
-py -m consumers.json_consumer_case
-```
-
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_alvaro
 ```
 
 What did we name the topic used with JSON data? 
@@ -91,6 +87,8 @@ You will need to:
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the producers folder.
 
+-----python3 -m producers.csv_producer_alvaro------
+
 What did we name the topic used with csv data? 
 Hint: See the producer code and [.env](.env).
 
@@ -103,6 +101,8 @@ You will need to:
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
+
+-----python3 -m consumers.csv_consumer_alvaro-----
 
 What did we name the topic used with csv data? 
 Hint: See the consumer code and [.env](.env).
