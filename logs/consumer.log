@@ -5013,3 +5013,235 @@
 2025-01-28 10:55:37,839 | INFO | __main__ - Temperature: 104.8 at 2025-01-28T16:55:37.833733
 2025-01-28 10:55:42,842 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:55:42.837563', 'temperature': 105.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
 2025-01-28 10:55:42,843 | INFO | __main__ - Temperature: 105.2 at 2025-01-28T16:55:42.837563
+2025-01-28 10:55:47,850 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:55:47.845295', 'temperature': 105.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:55:47,850 | INFO | __main__ - Temperature: 105.6 at 2025-01-28T16:55:47.845295
+2025-01-28 10:55:52,854 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:55:52.849193', 'temperature': 106.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:55:52,854 | INFO | __main__ - Temperature: 106.0 at 2025-01-28T16:55:52.849193
+2025-01-28 10:55:57,857 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:55:57.852495', 'temperature': 106.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:55:57,858 | INFO | __main__ - Temperature: 106.4 at 2025-01-28T16:55:57.852495
+2025-01-28 10:56:02,857 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:02.855989', 'temperature': 106.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:02,857 | INFO | __main__ - Temperature: 106.8 at 2025-01-28T16:56:02.855989
+2025-01-28 10:56:07,861 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:07.858337', 'temperature': 107.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:07,861 | INFO | __main__ - Temperature: 107.2 at 2025-01-28T16:56:07.858337
+2025-01-28 10:56:12,869 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:12.864408', 'temperature': 107.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:12,869 | INFO | __main__ - Temperature: 107.6 at 2025-01-28T16:56:12.864408
+2025-01-28 10:56:17,875 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:17.871653', 'temperature': 108.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:17,875 | INFO | __main__ - Temperature: 108.0 at 2025-01-28T16:56:17.871653
+2025-01-28 10:56:22,878 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:22.874679', 'temperature': 108.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:22,879 | INFO | __main__ - Temperature: 108.4 at 2025-01-28T16:56:22.874679
+2025-01-28 10:56:27,884 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:27.879991', 'temperature': 108.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:27,885 | INFO | __main__ - Temperature: 108.8 at 2025-01-28T16:56:27.879991
+2025-01-28 10:56:32,889 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:32.883921', 'temperature': 109.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:32,889 | INFO | __main__ - Temperature: 109.2 at 2025-01-28T16:56:32.883921
+2025-01-28 10:56:37,896 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:37.890180', 'temperature': 109.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:37,896 | INFO | __main__ - Temperature: 109.6 at 2025-01-28T16:56:37.890180
+2025-01-28 10:56:42,903 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:42.897743', 'temperature': 110.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:42,903 | INFO | __main__ - Temperature: 110.0 at 2025-01-28T16:56:42.897743
+2025-01-28 10:56:47,905 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:47.900423', 'temperature': 110.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:47,905 | INFO | __main__ - Temperature: 110.4 at 2025-01-28T16:56:47.900423
+2025-01-28 10:56:52,910 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:52.907943', 'temperature': 110.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:52,910 | INFO | __main__ - Temperature: 110.8 at 2025-01-28T16:56:52.907943
+2025-01-28 10:56:57,919 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:56:57.914059', 'temperature': 111.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:56:57,920 | INFO | __main__ - Temperature: 111.2 at 2025-01-28T16:56:57.914059
+2025-01-28 10:57:02,922 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:02.916956', 'temperature': 111.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:02,922 | INFO | __main__ - Temperature: 111.6 at 2025-01-28T16:57:02.916956
+2025-01-28 10:57:07,928 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:07.923621', 'temperature': 112.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:07,928 | INFO | __main__ - Temperature: 112.0 at 2025-01-28T16:57:07.923621
+2025-01-28 10:57:12,935 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:12.930899', 'temperature': 112.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:12,935 | INFO | __main__ - Temperature: 112.4 at 2025-01-28T16:57:12.930899
+2025-01-28 10:57:17,942 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:17.936879', 'temperature': 112.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:17,942 | INFO | __main__ - Temperature: 112.8 at 2025-01-28T16:57:17.936879
+2025-01-28 10:57:22,949 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:22.944528', 'temperature': 113.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:22,949 | INFO | __main__ - Temperature: 113.2 at 2025-01-28T16:57:22.944528
+2025-01-28 10:57:27,956 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:27.951501', 'temperature': 113.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:27,956 | INFO | __main__ - Temperature: 113.6 at 2025-01-28T16:57:27.951501
+2025-01-28 10:57:32,957 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:32.956008', 'temperature': 114.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:32,957 | INFO | __main__ - Temperature: 114.0 at 2025-01-28T16:57:32.956008
+2025-01-28 10:57:37,963 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:37.961603', 'temperature': 114.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:37,963 | INFO | __main__ - Temperature: 114.4 at 2025-01-28T16:57:37.961603
+2025-01-28 10:57:42,970 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:42.967688', 'temperature': 114.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:42,971 | INFO | __main__ - Temperature: 114.8 at 2025-01-28T16:57:42.967688
+2025-01-28 10:57:47,977 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:47.974595', 'temperature': 115.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:47,977 | INFO | __main__ - Temperature: 115.2 at 2025-01-28T16:57:47.974595
+2025-01-28 10:57:52,981 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:52.979246', 'temperature': 115.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:52,981 | INFO | __main__ - Temperature: 115.6 at 2025-01-28T16:57:52.979246
+2025-01-28 10:57:57,986 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:57:57.984803', 'temperature': 116.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:57:57,987 | INFO | __main__ - Temperature: 116.0 at 2025-01-28T16:57:57.984803
+2025-01-28 10:58:02,991 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:02.990863', 'temperature': 116.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:02,992 | INFO | __main__ - Temperature: 116.4 at 2025-01-28T16:58:02.990863
+2025-01-28 10:58:08,002 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:07.996313', 'temperature': 116.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:08,002 | INFO | __main__ - Temperature: 116.8 at 2025-01-28T16:58:07.996313
+2025-01-28 10:58:13,006 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:13.003873', 'temperature': 117.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:13,006 | INFO | __main__ - Temperature: 117.2 at 2025-01-28T16:58:13.003873
+2025-01-28 10:58:18,007 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:18.005410', 'temperature': 117.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:18,007 | INFO | __main__ - Temperature: 117.6 at 2025-01-28T16:58:18.005410
+2025-01-28 10:58:23,017 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:23.011547', 'temperature': 118.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:23,017 | INFO | __main__ - Temperature: 118.0 at 2025-01-28T16:58:23.011547
+2025-01-28 10:58:28,021 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:28.015885', 'temperature': 118.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:28,021 | INFO | __main__ - Temperature: 118.4 at 2025-01-28T16:58:28.015885
+2025-01-28 10:58:33,027 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:33.022294', 'temperature': 118.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:33,027 | INFO | __main__ - Temperature: 118.8 at 2025-01-28T16:58:33.022294
+2025-01-28 10:58:38,032 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:38.029941', 'temperature': 119.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:38,032 | INFO | __main__ - Temperature: 119.2 at 2025-01-28T16:58:38.029941
+2025-01-28 10:58:43,037 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:43.035842', 'temperature': 119.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:43,038 | INFO | __main__ - Temperature: 119.6 at 2025-01-28T16:58:43.035842
+2025-01-28 10:58:48,047 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:48.041765', 'temperature': 120.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:48,047 | INFO | __main__ - Temperature: 120.0 at 2025-01-28T16:58:48.041765
+2025-01-28 10:58:53,052 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:53.046657', 'temperature': 120.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:53,053 | INFO | __main__ - Temperature: 120.4 at 2025-01-28T16:58:53.046657
+2025-01-28 10:58:58,059 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:58:58.053787', 'temperature': 120.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:58:58,059 | INFO | __main__ - Temperature: 120.8 at 2025-01-28T16:58:58.053787
+2025-01-28 10:59:03,059 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:03.056976', 'temperature': 121.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:03,059 | INFO | __main__ - Temperature: 121.2 at 2025-01-28T16:59:03.056976
+2025-01-28 10:59:08,068 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:08.063085', 'temperature': 121.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:08,068 | INFO | __main__ - Temperature: 121.6 at 2025-01-28T16:59:08.063085
+2025-01-28 10:59:13,074 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:13.070465', 'temperature': 122.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:13,074 | INFO | __main__ - Temperature: 122.0 at 2025-01-28T16:59:13.070465
+2025-01-28 10:59:18,083 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:18.077405', 'temperature': 122.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:18,083 | INFO | __main__ - Temperature: 122.4 at 2025-01-28T16:59:18.077405
+2025-01-28 10:59:23,090 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:23.085230', 'temperature': 122.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:23,091 | INFO | __main__ - Temperature: 122.8 at 2025-01-28T16:59:23.085230
+2025-01-28 10:59:28,094 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:28.089982', 'temperature': 123.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:28,095 | INFO | __main__ - Temperature: 123.2 at 2025-01-28T16:59:28.089982
+2025-01-28 10:59:33,095 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:33.093065', 'temperature': 123.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:33,095 | INFO | __main__ - Temperature: 123.6 at 2025-01-28T16:59:33.093065
+2025-01-28 10:59:38,104 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:38.099315', 'temperature': 124.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:38,105 | INFO | __main__ - Temperature: 124.0 at 2025-01-28T16:59:38.099315
+2025-01-28 10:59:43,107 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:43.104943', 'temperature': 124.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:43,107 | INFO | __main__ - Temperature: 124.4 at 2025-01-28T16:59:43.104943
+2025-01-28 10:59:48,108 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:48.106940', 'temperature': 124.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:48,109 | INFO | __main__ - Temperature: 124.8 at 2025-01-28T16:59:48.106940
+2025-01-28 10:59:53,119 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:53.113597', 'temperature': 125.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:53,119 | INFO | __main__ - Temperature: 125.2 at 2025-01-28T16:59:53.113597
+2025-01-28 10:59:58,123 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T16:59:58.118208', 'temperature': 125.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 10:59:58,124 | INFO | __main__ - Temperature: 125.6 at 2025-01-28T16:59:58.118208
+2025-01-28 11:00:03,127 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:03.121109', 'temperature': 126.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:03,128 | INFO | __main__ - Temperature: 126.0 at 2025-01-28T17:00:03.121109
+2025-01-28 11:00:08,130 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:08.125971', 'temperature': 126.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:08,130 | INFO | __main__ - Temperature: 126.4 at 2025-01-28T17:00:08.125971
+2025-01-28 11:00:13,130 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:13.129032', 'temperature': 126.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:13,131 | INFO | __main__ - Temperature: 126.8 at 2025-01-28T17:00:13.129032
+2025-01-28 11:00:18,139 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:18.134912', 'temperature': 127.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:18,139 | INFO | __main__ - Temperature: 127.2 at 2025-01-28T17:00:18.134912
+2025-01-28 11:00:23,144 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:23.142459', 'temperature': 127.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:23,144 | INFO | __main__ - Temperature: 127.6 at 2025-01-28T17:00:23.142459
+2025-01-28 11:00:28,148 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:28.143911', 'temperature': 128.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:28,148 | INFO | __main__ - Temperature: 128.0 at 2025-01-28T17:00:28.143911
+2025-01-28 11:00:33,153 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:33.150805', 'temperature': 128.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:33,153 | INFO | __main__ - Temperature: 128.4 at 2025-01-28T17:00:33.150805
+2025-01-28 11:00:38,159 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:38.157505', 'temperature': 128.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:38,159 | INFO | __main__ - Temperature: 128.8 at 2025-01-28T17:00:38.157505
+2025-01-28 11:00:43,161 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:43.159895', 'temperature': 129.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:43,161 | INFO | __main__ - Temperature: 129.2 at 2025-01-28T17:00:43.159895
+2025-01-28 11:00:48,165 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:48.163585', 'temperature': 129.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:48,165 | INFO | __main__ - Temperature: 129.6 at 2025-01-28T17:00:48.163585
+2025-01-28 11:00:53,175 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:53.169461', 'temperature': 130.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:53,175 | INFO | __main__ - Temperature: 130.0 at 2025-01-28T17:00:53.169461
+2025-01-28 11:00:58,174 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:00:58.172372', 'temperature': 130.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:00:58,174 | INFO | __main__ - Temperature: 130.4 at 2025-01-28T17:00:58.172372
+2025-01-28 11:01:03,183 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:03.178697', 'temperature': 130.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:03,184 | INFO | __main__ - Temperature: 130.8 at 2025-01-28T17:01:03.178697
+2025-01-28 11:01:08,185 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:08.182675', 'temperature': 131.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:08,186 | INFO | __main__ - Temperature: 131.2 at 2025-01-28T17:01:08.182675
+2025-01-28 11:01:13,191 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:13.189075', 'temperature': 131.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:13,191 | INFO | __main__ - Temperature: 131.6 at 2025-01-28T17:01:13.189075
+2025-01-28 11:01:18,195 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:18.193452', 'temperature': 132.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:18,196 | INFO | __main__ - Temperature: 132.0 at 2025-01-28T17:01:18.193452
+2025-01-28 11:01:23,200 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:23.198420', 'temperature': 132.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:23,201 | INFO | __main__ - Temperature: 132.4 at 2025-01-28T17:01:23.198420
+2025-01-28 11:01:28,201 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:28.199443', 'temperature': 132.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:28,201 | INFO | __main__ - Temperature: 132.8 at 2025-01-28T17:01:28.199443
+2025-01-28 11:01:33,206 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:33.204788', 'temperature': 133.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:33,207 | INFO | __main__ - Temperature: 133.2 at 2025-01-28T17:01:33.204788
+2025-01-28 11:01:38,211 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:38.209679', 'temperature': 133.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:38,211 | INFO | __main__ - Temperature: 133.6 at 2025-01-28T17:01:38.209679
+2025-01-28 11:01:43,220 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:43.215534', 'temperature': 134.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:43,221 | INFO | __main__ - Temperature: 134.0 at 2025-01-28T17:01:43.215534
+2025-01-28 11:01:48,228 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:48.223196', 'temperature': 134.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:48,229 | INFO | __main__ - Temperature: 134.4 at 2025-01-28T17:01:48.223196
+2025-01-28 11:01:53,234 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:53.229674', 'temperature': 134.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:53,234 | INFO | __main__ - Temperature: 134.8 at 2025-01-28T17:01:53.229674
+2025-01-28 11:01:58,234 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:01:58.232417', 'temperature': 135.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:01:58,235 | INFO | __main__ - Temperature: 135.2 at 2025-01-28T17:01:58.232417
+2025-01-28 11:02:03,239 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:03.238397', 'temperature': 135.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:03,240 | INFO | __main__ - Temperature: 135.6 at 2025-01-28T17:02:03.238397
+2025-01-28 11:02:08,248 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:08.244151', 'temperature': 136.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:08,249 | INFO | __main__ - Temperature: 136.0 at 2025-01-28T17:02:08.244151
+2025-01-28 11:02:13,254 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:13.249378', 'temperature': 136.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:13,255 | INFO | __main__ - Temperature: 136.4 at 2025-01-28T17:02:13.249378
+2025-01-28 11:02:18,263 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:18.257548', 'temperature': 136.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:18,263 | INFO | __main__ - Temperature: 136.8 at 2025-01-28T17:02:18.257548
+2025-01-28 11:02:23,266 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:23.261053', 'temperature': 137.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:23,266 | INFO | __main__ - Temperature: 137.2 at 2025-01-28T17:02:23.261053
+2025-01-28 11:02:28,268 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:28.265729', 'temperature': 137.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:28,268 | INFO | __main__ - Temperature: 137.6 at 2025-01-28T17:02:28.265729
+2025-01-28 11:02:33,275 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:33.271743', 'temperature': 138.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:33,276 | INFO | __main__ - Temperature: 138.0 at 2025-01-28T17:02:33.271743
+2025-01-28 11:02:38,281 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:38.278599', 'temperature': 138.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:38,281 | INFO | __main__ - Temperature: 138.4 at 2025-01-28T17:02:38.278599
+2025-01-28 11:02:43,283 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:43.281446', 'temperature': 138.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:43,284 | INFO | __main__ - Temperature: 138.8 at 2025-01-28T17:02:43.281446
+2025-01-28 11:02:48,289 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:48.287753', 'temperature': 139.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:48,289 | INFO | __main__ - Temperature: 139.2 at 2025-01-28T17:02:48.287753
+2025-01-28 11:02:53,292 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:53.290782', 'temperature': 139.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:53,292 | INFO | __main__ - Temperature: 139.6 at 2025-01-28T17:02:53.290782
+2025-01-28 11:02:58,290 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:02:58.284728', 'temperature': 140.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:02:58,290 | INFO | __main__ - Temperature: 140.0 at 2025-01-28T17:02:58.284728
+2025-01-28 11:03:03,287 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:03.282429', 'temperature': 140.4, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:03,287 | INFO | __main__ - Temperature: 140.4 at 2025-01-28T17:03:03.282429
+2025-01-28 11:03:08,284 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:08.283196', 'temperature': 140.8, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:08,284 | INFO | __main__ - Temperature: 140.8 at 2025-01-28T17:03:08.283196
+2025-01-28 11:03:13,289 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:13.285058', 'temperature': 141.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:13,289 | INFO | __main__ - Temperature: 141.2 at 2025-01-28T17:03:13.285058
+2025-01-28 11:03:18,290 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:18.285168', 'temperature': 141.6, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:18,291 | INFO | __main__ - Temperature: 141.6 at 2025-01-28T17:03:18.285168
+2025-01-28 11:03:23,295 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:23.290187', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:23,296 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:03:23.290187
+2025-01-28 11:03:28,299 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:28.295849', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:28,299 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:03:28.295849
+2025-01-28 11:03:33,304 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:33.300869', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:33,305 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:03:33.300869
+2025-01-28 11:03:38,309 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:38.307034', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:38,309 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:03:38.307034
+2025-01-28 11:03:43,317 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:43.312486', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:43,318 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:03:43.312486
+2025-01-28 11:03:48,321 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:48.318812', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:48,321 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:03:48.318812
+2025-01-28 11:03:53,329 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:53.324617', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:53,329 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:03:53.324617
+2025-01-28 11:03:58,334 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:03:58.330620', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:03:58,335 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:03:58.330620
+2025-01-28 11:04:03,337 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:03.335358', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:03,337 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:03.335358
+2025-01-28 11:04:08,338 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:08.336538', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:08,339 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:08.336538
+2025-01-28 11:04:13,347 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:13.342457', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:13,347 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:13.342457
+2025-01-28 11:04:18,352 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:18.347849', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:18,353 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:18.347849
+2025-01-28 11:04:23,358 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:23.352631', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:23,358 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:23.352631
+2025-01-28 11:04:28,360 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:28.358239', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:28,360 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:28.358239
+2025-01-28 11:04:33,365 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:33.363940', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:33,365 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:33.363940
+2025-01-28 11:04:38,369 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:38.368233', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:38,370 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:38.368233
+2025-01-28 11:04:43,377 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:43.374876', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:43,377 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:43.374876
+2025-01-28 11:04:48,384 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:48.380719', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:48,384 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:48.380719
+2025-01-28 11:04:53,389 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:53.387515', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:53,389 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:04:53.387515
+2025-01-28 11:04:58,391 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:04:58.388944', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:04:58,391 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:04:58.388944
+2025-01-28 11:05:03,396 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:05:03.394213', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:05:03,396 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:05:03.394213
+2025-01-28 11:05:08,401 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:05:08.398749', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:05:08,401 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:05:08.398749
+2025-01-28 11:05:13,409 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:05:13.404524', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:05:13,410 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:05:13.404524
+2025-01-28 11:05:18,413 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:05:18.408364', 'temperature': 142.2, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:05:18,413 | INFO | __main__ - Temperature: 142.2 at 2025-01-28T17:05:18.408364
+2025-01-28 11:05:23,412 | INFO | __main__ - Received message: {'timestamp': '2025-01-28T17:05:23.410780', 'temperature': 142.0, 'truck_id': None, 'location': None, 'engine_status': None, 'odometer': None}
+2025-01-28 11:05:23,413 | INFO | __main__ - Temperature: 142.0 at 2025-01-28T17:05:23.410780

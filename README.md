@@ -1,4 +1,4 @@
-# buzzline-03-case
+# buzzline-03-alvaro
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files. 
@@ -26,26 +26,43 @@ Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buz
 ## Task 3. Manage Local Project Virtual Environment
 
 Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/MANAGE-VENV.md) to:
-1. Create your .venv -----python3 -m venv .venv------
-2. Activate .venv ----source .venv/bin/activate------
-3. Install the required dependencies using requirements.txt. ------python3 -m pip install --upgrade pip setuptools wheel
-python3 -m pip install --upgrade -r requirements.txt-------
+1. Create your .venv 
+   
+```zsh
+python3 -m venv .venv
+```
+
+2. Activate .venv 
+```zsh
+source .venv/bin/activate
+```
+
+3. Install the required dependencies using requirements.txt. 
+```zsh
+python3 -m pip install --upgrade pip setuptools wheel
+python3 -m pip install --upgrade -r requirements.txt
+```
 
 ## Task 4. Start Zookeeper and Kafka (2 Terminals)
 
 If Zookeeper and Kafka are not already running, you'll need to restart them.
 See instructions at [SETUP-KAFKA.md] to:
 
-#Terminal 1 ----cd ~/kafka
-chmod +x zookeeper-server-start.sh
-bin/zookeeper-server-start.sh config/zookeeper.properties----
-
-#Terminal 2 ----cd ~/kafka
-chmod +x kafka-server-start.sh
-bin/kafka-server-start.sh config/server.properties------
-
 1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
+
+```zsh
+cd ~/kafka
+chmod +x zookeeper-server-start.sh
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
 2. Start Kafka ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
+
+```zsh
+cd ~/kafka
+chmod +x kafka-server-start.sh
+bin/kafka-server-start.sh config/server.properties
+```
 
 ## Task 5. Start a JSON Producer
 
@@ -87,7 +104,11 @@ You will need to:
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the producers folder.
 
------python3 -m producers.csv_producer_alvaro------
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producers.csv_producer_alvaro
+```
 
 What did we name the topic used with csv data? 
 Hint: See the producer code and [.env](.env).
@@ -102,7 +123,11 @@ You will need to:
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
 
------python3 -m consumers.csv_consumer_alvaro-----
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.csv_consumer_alvaro
+```
 
 What did we name the topic used with csv data? 
 Hint: See the consumer code and [.env](.env).
